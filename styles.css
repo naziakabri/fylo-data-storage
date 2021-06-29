@@ -208,6 +208,7 @@ bottom: 1px;
     width: 375px;
     background-image: url(bg-mobile.png);
     background-position: bottom 121px right 106px;
+	    background-size:500px;
     }
     .name{
         width: 335px;
