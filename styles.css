@@ -1,0 +1,311 @@
+body
+{
+width: 1400px;
+height: 773px;
+font-family: 'Raleway', sans-serif;
+background-color:hsl(229, 57%, 11%) ;
+background-image: url(bg-desktop.png);
+background-repeat: no-repeat;
+background-position: bottom;
+display: flex;
+flex-direction: column;
+}
+.name{
+    width: 290px;
+    height: 155px;
+    background-color: hsl(228, 56%, 26%) ;
+    position: relative;
+    right: 1px;
+    left: 260px;
+    top: 280px;
+    bottom: 1px;
+    border-radius: 10px;
+    border-top-right-radius:100px;
+}
+.logo{
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+.folder{
+    width: 40px;
+    height: 35px;
+    background-color:hsl(229, 57%, 11%) ;
+    position: relative;
+    left: 90px;
+    top: 45px;
+    border-radius: 5px;
+}
+.folder-icon{
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+.document{
+    width: 40px;
+    height: 35px;
+    background-color:hsl(229, 57%, 11%) ;
+    position: relative;
+    left: 35px;
+    top: 9px;
+    border-radius: 5px;
+}
+.document-icon{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.upload{
+    width: 40px;
+    height: 35px;
+    background-color:hsl(229, 57%, 11%) ;
+    position: relative;
+    left: 145px;
+    bottom: 25px;
+    border-radius: 5px;
+}
+.upload-icon{
+    position: relative;
+    left: 7px;
+    top: 9px;
+}
+.attribution{
+    position: relative;
+    left: 500px;
+    top: 165px;
+}
+.usage-div{
+    width: 550px;
+    height: 120px;
+    background-color: hsl(228, 56%, 26%) ;
+    position: relative;
+    right: 1px;
+    left: 580px;
+    top: 160px;
+    bottom: 1px;
+    border-radius: 10px;
+}
+.blue{
+    width: 440px;
+    height: 15px;
+    background-color:hsl(229, 57%, 11%) ;
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+    right: 1px;
+    top: -47px;
+    border-radius: 100px;
+}
+.gradient{
+    width: 350px;
+    height: 11px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    position: relative;
+    right: 1px;
+    left: 2px;
+    top: 2px;
+    bottom: 1px;
+    border-radius: 100px;
+}
+.white{
+    width: 9px;
+    height: 9px;
+    background-color: white;
+    position: relative;
+    right: 1px;
+    left: 339px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 100px;
+}
+.usage{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    right: 1px;
+    left: 30px;
+    top: -50px;
+    bottom: 1px;
+}
+.zero-gb{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    position: relative;
+    right: 1px;
+    left: 32px;
+    top: -52px;
+    bottom: 1px;
+}
+.total-gb{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    position: relative;
+    right: 1px;
+    left: 434px;
+    top: -76px;
+    bottom: 1px;
+}
+.speech-bubble {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+width:115px;
+height:50px;
+position: relative;
+left: 360px;
+right: 1px;
+top: -45px;
+bottom: 1px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: relative;
+    left: 85%;
+    top: -30%;
+    right: 1px;
+	width: 0;
+	height: 0;
+	border: 34px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -17px;
+    margin-bottom: -34px; 
+}
+.gb{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+    position: relative;
+	bottom: 1px;
+    left: 20px;
+    top: 7px;
+    right: 1px;
+}
+.left{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 9px; 
+    color: grey;
+    position: relative;
+	bottom: 1px;
+    left: 65px;
+    top: -33px;
+    right: 1px;
+}
+@media only screen and (max-width:500px){
+    body{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-image: url(bg-mobile.png);
+    background-position: bottom 121px right 106px;
+    }
+    .name{
+        width: 335px;
+        height: 210px;
+        position: relative;
+        right: 1px;
+        left: 15px;
+        top: 104px;
+        bottom: 1px;
+    }
+    .logo{
+        position: relative;
+        left: 40px;
+        top: 30px;
+        width: 140px;
+        height: 45px;
+    }
+    .folder{
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 108px;
+        top: 64px; 
+    }
+    .folder-icon{
+        position: relative;
+        left: 11px;
+        top: 12px;
+    }
+    .document{
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 41px;
+        top: 15px;
+    }
+    .document-icon{
+        position: relative;
+        left: 14px;
+        top: 10px;
+    }
+    .upload{
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 176px;
+        bottom: 32px;
+    }
+    .upload-icon{
+        position: relative;
+        left: 10px;
+        top: 14px;
+    }
+    .attribution{
+        position: relative;
+        left: 92px;
+        top: 253px;
+        width: 265px;
+    }
+    .usage-div{
+        width: 334px;
+    height: 150px;
+    position: relative;
+    right: 1px;
+    left: 17px;
+    top: 125px;
+    bottom: 1px;
+    }
+    .blue{
+        width: 260px;
+        position: relative;
+        top: -50px;
+    }
+    .gradient{
+        width: 180px;
+    }
+    .white{
+        position: relative;
+        left: 169px;
+    }
+    .usage{
+        position: relative;
+        left: 45px;
+        top: -55px;
+    }
+    .total-gb{
+        position: relative;
+        left: 255px;
+    }
+    .speech-bubble:after{
+        display: none;
+    }
+    .speech-bubble {
+    position: relative;
+    left: 96px;
+    right: 1px;
+    top: 95px;
+    bottom: 1px;
+    }
+
+}
